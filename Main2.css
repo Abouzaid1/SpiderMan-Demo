@@ -1,0 +1,92 @@
+body{
+    margin: 0%;
+    background-image:
+    linear-gradient(to right, rgba(84, 0, 39, 0.679), rgba(0, 52, 77, 0.608)), url(img/1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0em;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
+div{
+    position: absolute;
+    width: 719px;
+    height: 650px;
+    left: 510px;
+    top: 125px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: azure;
+    background-image:
+    linear-gradient(to bottom, rgba(139, 6, 106, 0.555), rgba(255, 255, 255, 0)), url(img/5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0em;
+    background-position: center;
+    border-radius: 54px;
+    padding: 0em 2em 2em 2em;
+    font-family: 'Poppins', sans-serif;
+    
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 0.5em;
+}
+.lab{
+    color: white;
+    font-size: 30px;
+    margin: 0em 0em 0.5em 0em;
+    font-family: 'Poppins', sans-serif;
+}
+.inp{
+    font-size: 20px;
+    margin:0.6em 0em 0.6em 0em ;
+    width: 70%; 
+    padding: 0.5em;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+    background-image:
+    linear-gradient(to bottom, rgba(255, 103, 217, 0.555), rgba(255, 255, 255, 0)), url(img/5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+.sub{
+    font-size: 40px;
+    margin:0.6em 0em 0.6em 0em ;
+    width: 100%;
+    padding: 0.3em;
+    border-radius: 16px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 3px;
+    background-image:
+    linear-gradient(to bottom, rgba(255, 103, 217, 0.555), rgba(255, 255, 255, 0)), url(img/5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.sub:hover{
+    color: rgb(255, 0, 132);
+    cursor: pointer;
+}
+::placeholder { 
+    color:    rgba(255, 255, 255, 0.577);
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1em;
+ }
+ 
